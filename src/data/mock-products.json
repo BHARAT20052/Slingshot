@@ -4,159 +4,269 @@
     "name": "CloudStrider Running Shoes",
     "category": "Footwear",
     "price": 3500,
-    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
-    "description": "Ultra-lightweight running shoes with responsive cushioning."
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+    "description": "Ultra-lightweight running shoes with responsive cushioning and breathable mesh upper."
   },
   {
     "id": "2",
     "name": "Tempo Elite Trainers",
     "category": "Footwear",
     "price": 4200,
-    "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86",
-    "description": "Durable training shoes for high-intensity workouts."
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&auto=format&fit=crop",
+    "description": "Durable training shoes for high-intensity workouts. Reinforced sole and ankle support."
   },
   {
     "id": "3",
     "name": "SonicBlast Wireless Earbuds",
     "category": "Electronics",
     "price": 2800,
-    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
-    "description": "True wireless earbuds with active noise cancellation."
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop",
+    "description": "True wireless earbuds with active noise cancellation and 8-hour playback."
   },
   {
     "id": "4",
     "name": "OptiView Smart Watch",
     "category": "Electronics",
     "price": 12500,
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    "description": "Advanced health tracking with a vibrant AMOLED display."
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop",
+    "description": "Advanced health tracking with a vibrant AMOLED display. SpO2, ECG and GPS."
   },
   {
     "id": "5",
     "name": "Leather Craft Wallet",
     "category": "Accessories",
     "price": 1200,
-    "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93",
-    "description": "Handcrafted genuine leather wallet with RFID protection."
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&auto=format&fit=crop",
+    "description": "Handcrafted genuine leather wallet with RFID protection and 8 card slots."
   },
   {
     "id": "6",
     "name": "AquaShield Laptop Sleeve",
     "category": "Accessories",
     "price": 850,
-    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-    "description": "Water-resistant sleeve for 14-inch laptops."
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop",
+    "description": "Water-resistant neoprene sleeve for 14-inch laptops with accessory pocket."
   },
   {
     "id": "7",
     "name": "AeroWalk Sandals",
     "category": "Footwear",
     "price": 1800,
-    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
-    "description": "Comfortable daily-wear sandals with arch support."
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&auto=format&fit=crop",
+    "description": "Comfortable daily-wear sandals with arch support and anti-slip outsole."
   },
   {
     "id": "8",
     "name": "PowerGrid 20k Power Bank",
     "category": "Electronics",
     "price": 3200,
-    "imageUrl": "https://images.unsplash.com/photo-1609594164057-dca492215c0e",
-    "description": "High-capacity 20,000mAh power bank with fast charging."
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1609594164057-dca492215c0e?w=600&auto=format&fit=crop",
+    "description": "High-capacity 20,000mAh power bank with 65W PD fast charging and dual USB-C."
   },
   {
     "id": "9",
     "name": "UrbanSling Backpack",
     "category": "Accessories",
     "price": 4500,
-    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
-    "description": "Ergonomic backpack with multiple compartments for commuters."
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
+    "description": "Ergonomic backpack with multiple compartments, USB-A pass-through, and anti-theft zip."
   },
   {
     "id": "10",
     "name": "GripMaster Gym Gloves",
     "category": "Accessories",
     "price": 600,
-    "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2ae617",
-    "description": "Breathable gloves with padded palms for weightlifting."
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2ae617?w=600&auto=format&fit=crop",
+    "description": "Breathable gloves with padded palms and adjustable wrist wrap for weightlifting."
   },
   {
     "id": "11",
     "name": "LumiScan Bluetooth Keyboard",
     "category": "Electronics",
     "price": 5500,
-    "imageUrl": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
-    "description": "Backlit wireless keyboard with Multi-device pairing."
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&auto=format&fit=crop",
+    "description": "Backlit wireless keyboard with multi-device pairing, scissor keys and USB-C charging."
   },
   {
     "id": "12",
     "name": "DriftX Gaming Mouse",
     "category": "Electronics",
     "price": 2400,
-    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
-    "description": "High-precision optical sensor with programmable buttons."
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop",
+    "description": "High-precision 16,000 DPI optical sensor with 7 programmable buttons and RGB lighting."
   },
   {
     "id": "13",
     "name": "VeloCity Cycling Shoes",
     "category": "Footwear",
     "price": 6800,
-    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a",
-    "description": "Professional cycling shoes with stiff carbon soles."
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&auto=format&fit=crop",
+    "description": "Professional cycling shoes with stiff carbon soles and BOA closure system."
   },
   {
     "id": "14",
     "name": "SoundCore Over-Ear Headphones",
     "category": "Electronics",
     "price": 18500,
-    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    "description": "Studio-quality audio with 40-hour battery life."
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop",
+    "description": "Studio-quality 40mm drivers with Hi-Res Audio certification and 40-hour battery life."
   },
   {
     "id": "15",
     "name": "TitanTough Suitcase",
     "category": "Accessories",
     "price": 14500,
-    "imageUrl": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87",
-    "description": "Hard-shell suitcase with 360-degree silent spinner wheels."
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=600&auto=format&fit=crop",
+    "description": "Hard-shell polycarbonate suitcase with TSA-approved lock and 360-degree silent spinner wheels."
   },
   {
     "id": "16",
     "name": "SwiftStep Loafers",
     "category": "Footwear",
     "price": 3200,
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509",
-    "description": "Premium suede loafers for a sophisticated look."
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&auto=format&fit=crop",
+    "description": "Premium suede loafers with memory foam insole for a sophisticated, comfortable look."
   },
   {
     "id": "17",
-    "name": "SolarCharge 4k Action Cam",
+    "name": "SolarCharge 4K Action Cam",
     "category": "Electronics",
     "price": 9500,
-    "imageUrl": "https://images.unsplash.com/photo-1526170315873-3a9d66ec7a94",
-    "description": "4K Ultra HD action camera with waterproof housing."
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1526170315873-3a9d66ec7a94?w=600&auto=format&fit=crop",
+    "description": "4K Ultra HD action camera with waterproof housing, EIS stabilization and Wi-Fi."
   },
   {
     "id": "18",
     "name": "Infinity Loop Watch Band",
     "category": "Accessories",
     "price": 1500,
-    "imageUrl": "https://images.unsplash.com/photo-1539185441755-769473a23570",
-    "description": "Soft silicone band with a secure magnetic closure."
+    "rating": 4.1,
+    "imageUrl": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&auto=format&fit=crop",
+    "description": "Soft silicone sport band with a secure magnetic closure, compatible with all major smartwatches."
   },
   {
     "id": "19",
     "name": "PeakPerformer Trench Coat",
     "category": "Accessories",
     "price": 7500,
-    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
-    "description": "Classic waterproof trench coat for all-weather style."
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop",
+    "description": "Classic waterproof trench coat with a removable inner lining for all-weather style."
   },
   {
     "id": "20",
-    "name": "StrideMax Socks (Pack of 3)",
+    "name": "StrideMax Athletic Socks (Pack of 3)",
     "category": "Footwear",
     "price": 550,
-    "imageUrl": "https://images.unsplash.com/photo-1582966772640-31044541c30a",
-    "description": "Moisture-wicking athletic socks with reinforced heels."
+    "rating": 4.0,
+    "imageUrl": "https://images.unsplash.com/photo-1582966772640-31044541c30a?w=600&auto=format&fit=crop",
+    "description": "Moisture-wicking athletic socks with reinforced heels, arch compression and cushioned soles."
+  },
+  {
+    "id": "21",
+    "name": "Apex Pro Wireless Speaker",
+    "category": "Electronics",
+    "price": 6200,
+    "rating": 4.7,
+    "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop",
+    "description": "360-degree sound with IPX7 waterproofing, 24-hour battery, and dual-microphone call support."
+  },
+  {
+    "id": "22",
+    "name": "Canvas Weekend Duffel",
+    "category": "Accessories",
+    "price": 3800,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
+    "description": "Waxed canvas duffel with leather handles, a padded shoe compartment and waterproof base."
+  },
+  {
+    "id": "23",
+    "name": "Hiker Pro Trail Boots",
+    "category": "Footwear",
+    "price": 8500,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+    "description": "Waterproof Gore-Tex trail boots with Vibram outsole for maximum grip on all terrain."
+  },
+  {
+    "id": "24",
+    "name": "NovaPad Smart Tablet",
+    "category": "Electronics",
+    "price": 32500,
+    "rating": 4.8,
+    "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&auto=format&fit=crop",
+    "description": "11-inch 120Hz display, 8-core processor, with stylus support and 12MP pro camera system."
+  },
+  {
+    "id": "25",
+    "name": "HydroFlow Water Bottle",
+    "category": "Accessories",
+    "price": 1800,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop",
+    "description": "Insulated 1L stainless steel bottle keeps drinks cold 24h or hot 12h. BPA-free lid."
+  },
+  {
+    "id": "26",
+    "name": "FitFlux Smart Scale",
+    "category": "Electronics",
+    "price": 4800,
+    "rating": 4.4,
+    "imageUrl": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=600&auto=format&fit=crop",
+    "description": "Body composition smart scale measuring BMI, muscle mass, water % and bone density via app."
+  },
+  {
+    "id": "27",
+    "name": "LuxeKnit Running Tee",
+    "category": "Accessories",
+    "price": 2200,
+    "rating": 4.2,
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop",
+    "description": "Ultra-breathable dry-fit tee with flatlock seams and reflective accents for low-light runs."
+  },
+  {
+    "id": "28",
+    "name": "SwiftType USB-C Hub",
+    "category": "Electronics",
+    "price": 3900,
+    "rating": 4.6,
+    "imageUrl": "https://images.unsplash.com/photo-1625799613042-53ebf08a1088?w=600&auto=format&fit=crop",
+    "description": "7-in-1 USB-C hub with 4K HDMI, PD 100W, SD card reader, and two USB-A 3.0 ports."
+  },
+  {
+    "id": "29",
+    "name": "TerraStep Slip-Ons",
+    "category": "Footwear",
+    "price": 2600,
+    "rating": 4.3,
+    "imageUrl": "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=600&auto=format&fit=crop",
+    "description": "Minimalist canvas slip-ons with elastic gore and a flexible rubber outsole for city exploring."
+  },
+  {
+    "id": "30",
+    "name": "AuraGlow Desk LED Lamp",
+    "category": "Electronics",
+    "price": 2900,
+    "rating": 4.5,
+    "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop",
+    "description": "Eye-care LED desk lamp with 10 brightness levels, 5 colour modes and USB-A charging port."
   }
 ]

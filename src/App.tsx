@@ -1,11 +1,15 @@
 import ChatScreen from './screens/ChatScreen';
+import { CartProvider } from './context/CartContext';
 
 function App() {
   return (
-    <div className="App">
-      <ChatScreen />
-    </div>
+    <CartProvider>
+      <div className="App">
+        <ChatScreen />
+      </div>
+    </CartProvider>
   );
 }
 
 export default App;
+

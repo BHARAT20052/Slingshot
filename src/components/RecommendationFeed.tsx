@@ -2,16 +2,18 @@ import React from 'react';
 import type { Product } from '../skills/searchCatalog';
 import ProductCard from './ProductCard';
 import { tokens } from '../design-system';
+import { Sparkles } from 'lucide-react';
 
 interface RecommendationFeedProps {
   products: Product[];
+  onViewDetails: (product: Product) => void;
 }
 
-const RecommendationFeed: React.FC<RecommendationFeedProps> = ({ products }) => {
+const RecommendationFeed: React.FC<RecommendationFeedProps> = ({ products, onViewDetails }) => {
   return (
-    <div 
+    <div
       style={{
-        padding: '1.5rem',
+        padding: '1.25rem 1.5rem 1.5rem',
         backgroundColor: tokens.colors.background,
         flex: 1,
         overflowY: 'auto',
@@ -21,15 +23,15 @@ const RecommendationFeed: React.FC<RecommendationFeedProps> = ({ products }) => 
       aria-label="Product recommendations"
     >
       {products.length > 0 ? (
-        <div 
+        <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-            gap: '1.5rem',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+            gap: '1.25rem',
           }}
         >
           {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} onViewDetails={onViewDetails} />
           ))}
         </div>
       ) : (
@@ -41,10 +43,12 @@ const RecommendationFeed: React.FC<RecommendationFeedProps> = ({ products }) => 
           height: '100%',
           color: tokens.colors.onSurfaceVariant,
           ...tokens.typography.bodyLg,
-          textAlign: 'center'
+          textAlign: 'center',
+          gap: '0.75rem'
         }}>
-          <p>No products to display.</p>
-          <p style={{ fontSize: '0.9rem' }}>Try asking the assistant for suggestions!</p>
+          <Sparkles size={36} strokeWidth={1.2} color={tokens.colors.outlineVariant} />
+          <p style={{ margin: 0 }}>No products to display.</p>
+          <p style={{ fontSize: '0.875rem', margin: 0 }}>Try clicking a category or asking the assistant!</p>
         </div>
       )}
     </div>

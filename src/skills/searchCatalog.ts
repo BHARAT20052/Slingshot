@@ -1,10 +1,11 @@
-import products from '../data/mock-products.json';
+import productsData from '../data/mock-products.json';
 
 export interface Product {
   id: string;
   name: string;
   category: string;
   price: number;
+  rating: number;
   imageUrl: string;
   description: string;
 }
@@ -17,33 +18,30 @@ export interface SearchFilters {
 }
 
 export const search_catalog = async (filters: SearchFilters): Promise<Product[]> => {
-  const { category, maxPrice, minPrice, searchTerm } = filters;
+  let results = productsData as Product[];
 
-  return (products as Product[]).filter((product) => {
-    let matches = true;
+  if (filters.category) {
+    results = results.filter(p =>
+      p.category.toLowerCase() === filters.category!.toLowerCase()
+    );
+  }
 
-    if (category && product.category.toLowerCase() !== category.toLowerCase()) {
-      matches = false;
-    }
+  if (filters.maxPrice !== undefined) {
+    results = results.filter(p => p.price <= filters.maxPrice!);
+  }
 
-    if (maxPrice !== undefined && product.price > maxPrice) {
-      matches = false;
-    }
+  if (filters.minPrice !== undefined) {
+    results = results.filter(p => p.price >= filters.minPrice!);
+  }
 
-    if (minPrice !== undefined && product.price < minPrice) {
-      matches = false;
-    }
+  if (filters.searchTerm) {
+    const term = filters.searchTerm.toLowerCase();
+    results = results.filter(p =>
+      p.name.toLowerCase().includes(term) ||
+      p.description.toLowerCase().includes(term) ||
+      p.category.toLowerCase().includes(term)
+    );
+  }
 
-    if (searchTerm) {
-      const term = searchTerm.toLowerCase();
-      if (
-        !product.name.toLowerCase().includes(term) &&
-        !product.description.toLowerCase().includes(term)
-      ) {
-        matches = false;
-      }
-    }
-
-    return matches;
-  });
+  return results;
 };
