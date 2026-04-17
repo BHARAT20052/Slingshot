@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "CloudStrider Running Shoes",
+    "category": "Footwear",
+    "price": 3500,
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "description": "Ultra-lightweight running shoes with responsive cushioning."
+  },
+  {
+    "id": "2",
+    "name": "Tempo Elite Trainers",
+    "category": "Footwear",
+    "price": 4200,
+    "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86",
+    "description": "Durable training shoes for high-intensity workouts."
+  },
+  {
+    "id": "3",
+    "name": "SonicBlast Wireless Earbuds",
+    "category": "Electronics",
+    "price": 2800,
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+    "description": "True wireless earbuds with active noise cancellation."
+  },
+  {
+    "id": "4",
+    "name": "OptiView Smart Watch",
+    "category": "Electronics",
+    "price": 12500,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "description": "Advanced health tracking with a vibrant AMOLED display."
+  },
+  {
+    "id": "5",
+    "name": "Leather Craft Wallet",
+    "category": "Accessories",
+    "price": 1200,
+    "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93",
+    "description": "Handcrafted genuine leather wallet with RFID protection."
+  },
+  {
+    "id": "6",
+    "name": "AquaShield Laptop Sleeve",
+    "category": "Accessories",
+    "price": 850,
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+    "description": "Water-resistant sleeve for 14-inch laptops."
+  },
+  {
+    "id": "7",
+    "name": "AeroWalk Sandals",
+    "category": "Footwear",
+    "price": 1800,
+    "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+    "description": "Comfortable daily-wear sandals with arch support."
+  },
+  {
+    "id": "8",
+    "name": "PowerGrid 20k Power Bank",
+    "category": "Electronics",
+    "price": 3200,
+    "imageUrl": "https://images.unsplash.com/photo-1609594164057-dca492215c0e",
+    "description": "High-capacity 20,000mAh power bank with fast charging."
+  },
+  {
+    "id": "9",
+    "name": "UrbanSling Backpack",
+    "category": "Accessories",
+    "price": 4500,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "description": "Ergonomic backpack with multiple compartments for commuters."
+  },
+  {
+    "id": "10",
+    "name": "GripMaster Gym Gloves",
+    "category": "Accessories",
+    "price": 600,
+    "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2ae617",
+    "description": "Breathable gloves with padded palms for weightlifting."
+  },
+  {
+    "id": "11",
+    "name": "LumiScan Bluetooth Keyboard",
+    "category": "Electronics",
+    "price": 5500,
+    "imageUrl": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+    "description": "Backlit wireless keyboard with Multi-device pairing."
+  },
+  {
+    "id": "12",
+    "name": "DriftX Gaming Mouse",
+    "category": "Electronics",
+    "price": 2400,
+    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    "description": "High-precision optical sensor with programmable buttons."
+  },
+  {
+    "id": "13",
+    "name": "VeloCity Cycling Shoes",
+    "category": "Footwear",
+    "price": 6800,
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a",
+    "description": "Professional cycling shoes with stiff carbon soles."
+  },
+  {
+    "id": "14",
+    "name": "SoundCore Over-Ear Headphones",
+    "category": "Electronics",
+    "price": 18500,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "description": "Studio-quality audio with 40-hour battery life."
+  },
+  {
+    "id": "15",
+    "name": "TitanTough Suitcase",
+    "category": "Accessories",
+    "price": 14500,
+    "imageUrl": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87",
+    "description": "Hard-shell suitcase with 360-degree silent spinner wheels."
+  },
+  {
+    "id": "16",
+    "name": "SwiftStep Loafers",
+    "category": "Footwear",
+    "price": 3200,
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509",
+    "description": "Premium suede loafers for a sophisticated look."
+  },
+  {
+    "id": "17",
+    "name": "SolarCharge 4k Action Cam",
+    "category": "Electronics",
+    "price": 9500,
+    "imageUrl": "https://images.unsplash.com/photo-1526170315873-3a9d66ec7a94",
+    "description": "4K Ultra HD action camera with waterproof housing."
+  },
+  {
+    "id": "18",
+    "name": "Infinity Loop Watch Band",
+    "category": "Accessories",
+    "price": 1500,
+    "imageUrl": "https://images.unsplash.com/photo-1539185441755-769473a23570",
+    "description": "Soft silicone band with a secure magnetic closure."
+  },
+  {
+    "id": "19",
+    "name": "PeakPerformer Trench Coat",
+    "category": "Accessories",
+    "price": 7500,
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+    "description": "Classic waterproof trench coat for all-weather style."
+  },
+  {
+    "id": "20",
+    "name": "StrideMax Socks (Pack of 3)",
+    "category": "Footwear",
+    "price": 550,
+    "imageUrl": "https://images.unsplash.com/photo-1582966772640-31044541c30a",
+    "description": "Moisture-wicking athletic socks with reinforced heels."
+  }
+]
